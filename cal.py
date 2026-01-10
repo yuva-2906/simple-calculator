@@ -16,7 +16,7 @@ print("Please select operation -\n"
       "3. Multiply\n"
       "4. Divide\n")
 
-sel = int(input("Select operation (1-4): "))
+sel = int(input("Select operation (1-5): "))
 
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
@@ -30,4 +30,4 @@ elif sel == 3:
 elif sel == 4:
     print(n1, "/", n2, "=", div(n1, n2))
 else:
-    print("Invalid input")
+    print("given input is not valid !") #given
